@@ -428,3 +428,87 @@ let students = 30;
 //     username = window.prompt("Enter your name ");
 // } 
 // console.log(`hello ${username}`);
+
+// let num = 10;
+
+// while (num >= 1) {
+//     console.log();
+//     num--;
+// }
+
+//    1           2      4
+// for(let i = 1; i <= 10; i++) {
+
+//     // 3
+//       if(i == 7) {
+//         // break;
+//         continue;
+//       } else {
+//         console.log(i);
+//       }
+// }
+
+
+
+// function happyBirthday(username, age) {
+//    console.log("Happy birthday to you");
+//    console.log("Happy birthday to you");
+//    console.log(`Happy birthday ${username} you`);
+//    console.log(`you are ${age} years old`);
+// }
+
+// happyBirthday("aslam", 27);
+// happyBirthday("ganesh", 26);
+// happyBirthday("siva", 22);
+
+
+// function add(x, y) {
+//    return x + y;
+// }
+
+
+// function isEven(number) {
+//     // if(number % 2 === 0) {
+//     //     return true;
+//     // } else {
+//     //     return false;
+//     // }
+//     return number % 2 === 0 ? true : false;
+// }
+
+// function isValidEmail(email) {
+
+//   if(email.includes("@")) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+     
+//    return email.includes("@") ? true : false;
+
+// }
+
+// console.log( add(2, 2));
+// console.log( isEven(2));
+// console.log(isValidEmail("dharshni@gmail.com"));
+// console.log(isValidEmail("dharshnimail.com"));
+
+// let z = 9;
+
+// let x = 3;
+
+// function func1() {
+//     // let x = 1;
+//     console.log(x);
+//     // console.log(z);
+// }
+// function func2() {
+//     // let x = 2;
+//     console.log(x);
+//     // console.log(z);
+// }
+
+// func1();
+// func2();
+
+

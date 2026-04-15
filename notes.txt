@@ -250,11 +250,20 @@ end - where we need to stop the loop based on the condtions - if conditon true l
 
 increase or decrease the value - i++, ++i, i--, --i, i = i + 1
 
-for loop 
+for loop - 
 
 for each loop ---> advanced loop 
 
 
+function - a section of reusable code, Decalre once, use it whenever we want 
+
+Call the function name to execute that code.
+
+Variable Scope - where a variable is recogonized and acceessible (local vs global)
+
+Common DS in all the pro lang
+
+Arrays - varaible like structure that can hold more than 1 values 
 
 
 

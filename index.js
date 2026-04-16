@@ -73,7 +73,7 @@
 // document.getElementById("myH1").textContent = fullName;
 
 
-let students = 30;
+// let students = 30;
 
 // students = students + 1;
 // students = students - 1;
@@ -646,21 +646,167 @@ let students = 30;
 
 
 //      
-sum(displayInWebPage, 2, 3);
+// sum(displayInWebPage, 2, 3);
 
-// 1st it be call
-function sum(callback, x, y) {
-   let result = x + y;
-   callback(result);
-}
+// // 1st it be call
+// function sum(callback, x, y) {
+//    let result = x + y;
+//    callback(result);
+// }
 
-function displayResultToMyConsole(result) {
-    console.log(result);
-}
+// function displayResultToMyConsole(result) {
+//     console.log(result);
+// }
 
-function displayInWebPage(result) {
-       document.getElementById("myH1").textContent = `the result is ${result}`;
-}
+// function displayInWebPage(result) {
+//        document.getElementById("myH1").textContent = `the result is ${result}`;
+// }
+
+
+//            0    1  2 3  4
+// let numbers = [1, 2, 3, 4, 5];
+
+  
+// numbers.forEach(double);
+// numbers.forEach(cube);
+// numbers.forEach(double);
+// numbers.forEach(triple);
+// numbers.forEach(display);
+
+// function double(element, index, array) {
+//      array[index] = element * 2;
+// }
+
+// function triple(element, index, array) {
+//      array[index] = element * 3;
+// }
+
+// function square(element, index, array) {
+//     array[index] = Math.pow(element, 2)
+// }
+// function cube(element, index, array) {
+//     array[index] = Math.pow(element, 3)
+// }
+
+// function display(element) {
+//      console.log(element);
+// }
+// let fruits = ["apple", "orange", "banana", "mango"];
+
+// fruits.forEach(captialize);
+
+// function upperCase(element, index, array) {
+//      array[index] = element.toUpperCase();
+// }
+// function lowerCase(element, index, array) {
+//      array[index] = element.toLowerCase();
+// }
+
+// function captialize(element, index, array) {
+//     array[index] = element.charAt(0).toUpperCase() + element.slice(1) 
+// }
+
+// fruits.forEach(display);
+
+// function display(element) {
+//     console.log(element);
+// }
+
+            //    0  1  2 3  4
+// let numbers = [1, 2, 3, 4, 5];
+
+// const squares = numbers.map(square);
+
+// console.log(squares);
+
+
+// function square(element) {
+//     return Math.pow(element, 2);
+// }
+
+// do it for cube? below 
 
 
 
+// const students = ["ganesh", "aslam", "john"];
+
+// const studentsUpper = students.map(upperCase);
+
+// console.log(studentsUpper);
+
+
+// function upperCase(element) {
+//      return element.toUpperCase();
+// }
+
+
+// const dates = ["2026-04-16", "2026-04-6", "2026-05-16"]
+
+// const formatedDates = dates.map(formatDates);
+
+// console.log(formatedDates);
+
+// function formatDates(element) {
+//     const parts = element.split("-");
+//     return `${parts[2]}/${parts[1]}/${parts[0]}`;
+// }
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+
+// let evenNumbers = numbers.filter(isEven);
+
+// console.log(evenNumbers);
+
+// function isEven(element) {
+//     return element % 2 === 0;
+// }
+
+
+// const ages = [27, 25, 28, 30, 22, 60, 18, 13, 10, 12];
+
+
+// const adults = ages.filter(isAdult);
+
+// console.log(adults);
+
+// function isAdult(element) {
+//     return element >= 18;
+// }
+
+// filter the childerns 
+
+
+// const words = ["apple", "orange", "banana", "pineapple", "pomegrante"];
+
+// const shortWords = words.filter(getShortWords);
+
+// console.log(shortWords);
+
+// function getShortWords(element) {
+//     return element.length <= 6;
+// }
+
+// find out for longwords using filter method
+
+// const prices = [100, 200, 300, 150, 170];
+// const prices = [100, 200, 300, 150, 170];
+
+// const total = prices.reduce(sum);
+
+// console.log(`my total is ₹${total}`);
+
+// //             750         170                    
+// function sum(previousEle, nextEle) {
+//     return accumlator + elemen;
+// }
+
+
+// const maximum = prices.reduce(getMax);
+
+// console.log(maximum);
+
+// function getMax(accum, ele) {
+//     return Math.max(accum, ele);
+// }

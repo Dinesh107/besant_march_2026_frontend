@@ -281,7 +281,6 @@ func1(arguments);
 
 Callbacks - a function that is passed as an argument to another function 
 
-
 used to handle asynshronous operation 
 
 Reading the file 
@@ -290,6 +289,38 @@ interacting with Database
 api calling 
 
 "Hey, when you done, call this next"
+
+forEach() - method used to iterate over the elements of an array and apply a specified function (callback)
+to each element 
+
+array.forEach(callback);
+element, index, array 
+
+
+
+Map() - accepts the callback and applies that function to each element of an array,, return a new array.
+
+
+filter() = creates a new array by filtering out the elements
+// based on boolean values
+
+
+.reduce() = reduce the elements of an array to an single value 
+
+
+function declaration - decalre a reusable block of code that performs a specific task 
+
+function hello() {
+  console.log("hellow students");
+}
+
+function expression -  a way to define the function as values or varaibles 
+
+
+const hello = function() {
+   console.log("hellow students");
+}
+
 
 
 

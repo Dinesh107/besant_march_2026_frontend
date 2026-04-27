@@ -327,7 +327,7 @@ Principle of Object Oriented Programmming
 Abstraction --> hiding the internal details showing only the requried detils
 Encapsulation ---> 
 Inheritance --> 
-Polymorphism
+Polymorphism 
 
 SPeclization 
 
@@ -354,6 +354,138 @@ constructors - special method for defining the properties and methods of objects
 classes - ES6 feature - provides a more structured and cleaner way to work with objects compared to traditional constructor fuctions
 
 Ex: Static keyword, Encapsulation, inheritance
+
+Static - keyword that defines properties or methods that belong to the class itself rather then the object created from that class (class owns anything static, not the objects)
+
+
+inheritance - allows a new class to inherit properties and methods from an exiting class (parent -> child) 
+
+helps with code reusablity 
+
+
+Super keyword  - used classes to call the constructor or access the properties and methods of a parent (super classs) 
+
+this = this object
+super = the parent 
+
+
+
+Getter - Special method that makes a property readable 
+Setter - special method than make a property writable 
+
+valiadte and modify a value when reading/writing a property 
+
+
+Task 
+
+1. Getters and Setters Tasks
+Task 1: Student Marks Manager
+
+Create a Student class:
+
+Properties: name, marks
+Use getter to return grade:
+90+ → A
+75+ → B
+else → C
+Use setter to update marks (should not allow negative values)
+
+👉 Expected learning: Encapsulation + validation
+
+Task 2: Bank Account Balance
+
+Create a BankAccount class:
+
+Private property: _balance
+Getter → return balance
+Setter → allow deposit only if amount > 0
+
+👉 Add condition: No direct access to _balance
+
+🔹 2. Inheritance Tasks
+Task 3: Employee → Manager
+
+Create:
+
+Employee class:
+properties: name, salary
+method: getDetails()
+Manager class extends Employee:
+add: department
+override getDetails()
+
+👉 Expected learning: Method overriding + reuse
+
+Task 4: Vehicle System
+
+Create:
+
+Vehicle class → method start()
+Car class extends Vehicle → method drive()
+Bike class extends Vehicle → method ride()
+
+👉 Call all methods using objects
+
+🔹 3. this Keyword Tasks
+Task 5: Object Method Context
+
+Create an object:
+
+properties: name, age
+method: getDetails() using this
+
+👉 Print: "My name is Dinesh and age is 26"
+
+Task 6: Fix this Issue
+const user = {
+  name: "Dinesh",
+  greet: function() {
+    setTimeout(function() {
+      console.log(this.name);
+    }, 1000);
+  }
+};
+user.greet();
+
+👉 Task:
+
+Fix the issue so it prints "Dinesh"
+
+👉 Expected learning: this inside callback
+
+🔹 4. super Keyword Tasks
+Task 7: Constructor Chaining
+
+Create:
+
+Person class → name
+Student extends Person → course
+
+👉 Use super() to initialize parent
+
+Task 8: Method Calling using super
+
+Create:
+
+Parent class → method show()
+Child class → override show() and call parent method using super.show()
+🔹 5. Combined Real-Time Task (Best for Interview)
+Task 9: E-commerce User System (Real-Time)
+
+Create:
+
+User class → name, email
+Seller extends User → productList
+Admin extends User → manage users
+
+👉 requirements:
+
+Use getter/setter for email validation
+Use this keyword properly
+Use super in constructor
+
+
+Advanced Javascript
 
 
 
